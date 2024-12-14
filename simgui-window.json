@@ -7,63 +7,63 @@
       "font": "Proggy Dotted",
       "fps": "120",
       "height": "720",
-      "maximized": "0",
-      "style": "0",
+      "maximized": "1",
+      "style": "1",
       "userScale": "2",
       "width": "1280",
-      "xpos": "193",
-      "ypos": "106"
+      "xpos": "231",
+      "ypos": "31"
     }
   },
   "Window": {
-    "###/FMSInfo": {
-      "Collapsed": "0",
-      "Pos": "60,60",
-      "Size": "181,167"
-    },
     "###/SmartDashboard/Field": {
       "Collapsed": "0",
-      "Pos": "166,24",
-      "Size": "740,373"
+      "Pos": "286,-116",
+      "Size": "1012,721"
+    },
+    "###/SmartDashboard/Swerve Drive": {
+      "Collapsed": "0",
+      "Pos": "60,60",
+      "Size": "300,150"
     },
     "###FMS": {
       "Collapsed": "0",
-      "Pos": "4,414",
+      "Pos": "30,272",
       "Size": "169,184"
     },
     "###Joysticks": {
       "Collapsed": "0",
-      "Pos": "250,465",
-      "Size": "796,189"
-    },
-    "###Keyboard 0 Settings": {
-      "Collapsed": "0",
-      "Pos": "369,59",
-      "Size": "300,560"
+      "Pos": "1076,777",
+      "Size": "796,217"
     },
     "###NetworkTables": {
       "Collapsed": "0",
-      "Pos": "399,253",
-      "Size": "750,236"
+      "Pos": "18,833",
+      "Size": "750,185"
     },
     "###NetworkTables Info": {
-      "Collapsed": "1",
-      "Pos": "250,129",
+      "Collapsed": "0",
+      "Pos": "286,647",
       "Size": "750,145"
     },
     "###Other Devices": {
       "Collapsed": "0",
-      "Pos": "1025,20",
+      "Pos": "1649,34",
       "Size": "250,695"
+    },
+    "###RoboRIO": {
+      "Collapsed": "0",
+      "Pos": "5,125",
+      "Size": "119,146"
     },
     "###System Joysticks": {
       "Collapsed": "0",
-      "Pos": "205,308",
-      "Size": "192,218"
+      "Pos": "799,818",
+      "Size": "211,218"
     },
     "###Timing": {
       "Collapsed": "0",
-      "Pos": "5,150",
+      "Pos": "19,584",
       "Size": "135,219"
     },
     "Debug##Default": {
@@ -73,7 +73,7 @@
     },
     "Robot State": {
       "Collapsed": "0",
-      "Pos": "7,20",
+      "Pos": "179,688",
       "Size": "92,116"
     }
   }

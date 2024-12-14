@@ -439,14 +439,23 @@ public class SwerveSubsystem extends SubsystemBase
    * @param rotation     Rotation as a value between [-1, 1] converted to radians.
    * @return Drive command.
    */
+  double currentrot = 0;
   public Command simDriveCommand(DoubleSupplier translationX, DoubleSupplier translationY, DoubleSupplier rotation)
   {
+    if(rotation.getAsDouble() > 0 && currentrot < 1){
+      currentrot += 0.1;
+      System.out.println(currentrot);
+    }
+    else if(rotation.getAsDouble() < 0 && currentrot > -1){
+      currentrot -= 0.1;
+      System.out.println(currentrot);
+    }
     // swerveDrive.setHeadingCorrection(true); // Normally you would want heading correction for this kind of control.
     return run(() -> {
       // Make the robot move
       driveFieldOriented(swerveDrive.swerveController.getTargetSpeeds(translationX.getAsDouble(),
                                                                       translationY.getAsDouble(),
-                                                                      rotation.getAsDouble() * Math.PI,
+                                                                      currentrot,
                                                                       swerveDrive.getOdometryHeading().getRadians(),
                                                                       swerveDrive.getMaximumChassisVelocity()));
     });
