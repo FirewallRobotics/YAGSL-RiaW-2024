@@ -96,8 +96,6 @@ public class Vision
       {
         c.addToVisionSim(visionSim);
       }
-
-      openSimCameraViews();
     }
   }
 
@@ -277,25 +275,6 @@ public class Vision
   public VisionSystemSim getVisionSim()
   {
     return visionSim;
-  }
-
-  /**
-   * Open up the photon vision camera streams on the localhost, assumes running photon vision on localhost.
-   */
-  private void openSimCameraViews()
-  {
-    if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Desktop.Action.BROWSE))
-    {
-//      try
-//      {
-//        Desktop.getDesktop().browse(new URI("http://localhost:1182/"));
-//        Desktop.getDesktop().browse(new URI("http://localhost:1184/"));
-//        Desktop.getDesktop().browse(new URI("http://localhost:1186/"));
-//      } catch (IOException | URISyntaxException e)
-//      {
-//        e.printStackTrace();
-//      }
-    }
   }
 
   /**
